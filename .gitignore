@@ -1,0 +1,23 @@
+# Ignore everything
+*
+
+# But not these files...
+!*.gitignore
+!LICENSE
+!*.R
+!*.Rmd
+!*.sh
+!*.py
+!*.ipynb
+!*.md
+!*.Rprofile
+# specific files
+!code_overview.png
+!Transcriptomic_Response_to_Influenza_Vaccination_in_Health_and_Disease_by_Robin_Schaeper_2025.pdf
+!Transcriptomic_Response_to_Influenza_Vaccination_in_Health_and_Disease_by_Robin_Schaeper_2025_compressed.pdf
+
+
+# ...even if they are in subdirectories
+!*/
+
+.Rproj.user
