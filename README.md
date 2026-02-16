@@ -1,11 +1,11 @@
 # Overview
-A repository to backup the scripts we used for bulkRNA data analysis during my Master's thesis.
+A repository to backup the scripts we used for bulkRNA data analysis during my Master's thesis (without confidential data or results for public display).
 
 # Installation
-Here is how, given all necessary data is available, one can reproduce the analysis:  
+Here is how, given all necessary data was available, one could reproduce the analysis:  
 
-`git clone https://github.com/wimmers-lab/202501_RS_bulkRNA-analysis/tree/main` (clone repository)  
-`cd 202501_RS_bulkRNA-analysis` (move into project root directory)  
+`git clone https://github.com/rschaeper/rna_seq_analysis-public/tree/main` (clone repository)  
+`cd rna_seq_analysis-public` (move into project root directory)  
 `R -e "renv::restore()"` (detect and install the exact versions of the packages used during development)  
 `chmod +x pipeline.sh` (make pipeline script executable)  
 `./pipeline.sh` (run pipeline which loads functions.R and then executes scripts in order)
