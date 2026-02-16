@@ -1,6 +1,8 @@
 # Overview
 A repository to backup the scripts we used for bulkRNA data analysis during my Master's thesis (without confidential data or results for public display).
 
+This code features a data cleanup pipeline, quality control measures, exploratory data analysis, variance partitioning analysis, differential gene expression analysis, complex heatmaps, volcano plots and correlations of gene counts with antibody titers.
+
 # Installation
 Here is how, given all necessary data was available, one could reproduce the analysis:  
 
