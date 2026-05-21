@@ -5,7 +5,8 @@ This is a longitudinal study of transcriptomic activity after influenza vaccinat
 Our code features a data cleanup pipeline, quality control measures, exploratory data analysis, variance partitioning analysis, differential gene expression analysis, complex heatmaps, volcano plots and correlations of gene counts with antibody titers.
 
 # Installation
-Here is how, given all necessary data was available, one could reproduce the analysis:  
+Here is how, given all necessary data was available, one could reproduce the analysis
+**Note that due to confidentiality the data for this custom analysis pipeline is NOT included**:  
 
 `git clone https://github.com/rschaeper/rna_seq_analysis-public/tree/main` (clone repository)  
 `cd rna_seq_analysis-public` (move into project root directory)  
